@@ -1,0 +1,35 @@
+Access Control (Private)
+
+private = only usable inside its class.
+
+Can’t access a private variable (like cost) from another class.
+
+Objects
+
+Usually created and declared on one line.
+
+Anonymous objects = made without a name (often passed into methods).
+
+References & Equality
+
+cir2 = cir1 → both point to the same object.
+
+== → checks if they are the same object.
+
+.equals() → checks content (only works that way if overridden).
+
+Strings
+
+Use .equals() or .compareTo(), not ==.
+
+String literals share memory (so == might sometimes work).
+
+new String() makes a new object (so == is false).
+
+Other Rules
+
+A variable name is just a pointer—you can reassign it.
+
+No access modifier = package access.
+
+Instance vars auto-init to 0; local vars don’t—must assign before use.

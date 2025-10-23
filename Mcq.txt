@@ -1,0 +1,9 @@
+B – name = nm;
+
+D – Student stu1 = new Student("Sally");
+
+C – sa = (int)(myStd.getAverage());
+
+A – System.out.println(sObj.getName());
+
+A – numGrades
